@@ -43,6 +43,8 @@ public class FlutterWebviewPlugin implements FlutterPlugin, ActivityAware, Metho
             channel.setMethodCallHandler(instance);
         }
     }
+    
+    public FlutterWebviewPlugin() {}
 
     FlutterWebviewPlugin(Activity activity, Context context) {
         this.activity = activity;
